@@ -39,7 +39,7 @@ const Contact = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:3001/api/send-email', formData);
+            const response = await axios.post('https://portfolio-backend-vgxb.onrender.com/api/send-email', formData);
             console.log(response.data);
             toast.success(response.data.message, {
                 position: "top-right",

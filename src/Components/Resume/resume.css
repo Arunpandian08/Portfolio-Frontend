@@ -1,0 +1,50 @@
+.resume {
+    min-height: 100vh;
+}
+
+@media screen and (max-width:679px) {
+
+    .course-1,
+    .course-2,
+    .course-4,
+    .course-5 {
+        margin-top: -1rem !important;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width:769px) {
+
+    .course-1,
+    .course-2,
+    .course-4,
+    .course-5,
+    .c-data {
+        margin: 0rem !important;
+        padding: 1rem !important;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items:center;
+        text-align:center;
+    }
+    .card-col{
+        padding: 0rem !important;
+        margin: 0.5rem !important;
+    }
+}
+
+.card-body {
+    border-radius: 36px;
+    background: #5741d8;
+    box-shadow: inset 50px -50px 40px #32267d,
+        inset -50px 50px 40px #7c5cff;
+}
+
+.contents {
+    color: white;
+    border-radius: 16px;
+    background: #142664;
+    box-shadow: inset -5px 5px 10px #0e1b47,
+        inset 5px -5px 10px #1a3181;
+}

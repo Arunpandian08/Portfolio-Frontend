@@ -1,0 +1,36 @@
+.navbar {
+  font-size: 1.3em;
+  text-transform: uppercase;
+  width: 100%;
+  margin:0.5rem;
+  /* background-color: #d5d3fd; */
+  /* backdrop-filter: blur(100px); */
+}
+
+.navbar-brand {
+  font-size: 1.3em;
+  font-family: Arvo, sans-serif;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  margin-right: 1rem;
+}
+
+.nav-link:hover {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.animate_animated.animate__slideInUp {
+  animation: all 2s ease;
+}
+
+@media screen and (max-width:1025px) {
+  .nav-link {
+    font-size: 1.2rem;
+    margin-right: 0 !important;
+  }
+}

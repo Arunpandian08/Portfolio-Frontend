@@ -10,7 +10,7 @@ export const data =[
     },
     {
         id: 2,
-        image:'/Projects Images/todo_app.png.png',
+        image:'/Projects Images/todo_app.png',
         title:"Todo App",
         points:["Context API","Todo Form","Filter Todo's By Status","Card","Change Status","Delete Todo"],
         frontend:"https://github.com/Arunpandian08/Frontend-Todo-App-Context-API.git",

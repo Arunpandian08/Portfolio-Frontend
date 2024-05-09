@@ -7,5 +7,14 @@ export const data =[
         frontend:"https://github.com/Arunpandian08/Diet-Suggestion-App-Frontend.git",
         backend:"https://github.com/Arunpandian08/Diet-suggestion-App-backend.git",
         demo:"https://diet-suggestion-app-frontend.netlify.app/"
+    },
+    {
+        id: 2,
+        image:'/Projects Images/todo_app.png.png',
+        title:"Todo App",
+        points:["Context API","Todo Form","Filter Todo's By Status","Card","Change Status","Delete Todo"],
+        frontend:"https://github.com/Arunpandian08/Frontend-Todo-App-Context-API.git",
+        backend:"https://github.com/Arunpandian08/Backend-Todo-App-Context-API.git",
+        demo:"https://todo-app-with-context-api-08.netlify.app/"
     }
 ]

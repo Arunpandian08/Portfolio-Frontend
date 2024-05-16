@@ -20,9 +20,10 @@ export const data =[
     {
         id: 3,
         image:'/Projects Images/Youtube_Clone.png',
-        title:"Youtube-Clone [Frontend]",
+        title:"Youtube-Clone with Youtube data API",
         points:["Data From Youtube Data API","Youtube Home Page","Video Page","Recommended Videos","Using Moment.js Third-Party library","React Router DOM"],
         frontend:"https://github.com/Arunpandian08/youtube-clone.git",
-        demo:"https://youtube-clone-frontend-f50664.netlify.app/"
+        backend:'https://github.com/Arunpandian08/Backend-youtube-clone-with-youtube-API.git',
+        demo:"https://youtube-clone-youtube-data-api-9bdd89.netlify.app/"
     }
 ]

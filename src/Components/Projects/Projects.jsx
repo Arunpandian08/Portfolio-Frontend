@@ -26,7 +26,7 @@ const Projects = () => {
                 <div className="row cards_row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 justify-content-center mt-5">
                     {data.map((item, index) => {
                         return (
-                            <div className="col g-3 d-flex justify-content-center align-content-center" key={index}>
+                            <div className="col g-5 d-flex justify-content-center align-content-center" key={index}>
                                 <div className="project_card card h-100 ">
                                     <img className='project-img' src={item.image} alt="app-img" />
                                     <div className="cards-body">

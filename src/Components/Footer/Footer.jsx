@@ -1,5 +1,6 @@
 import React from 'react';
 import './footer.css';
+import { Link } from 'react-scroll';
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
@@ -71,12 +72,12 @@ const Footer = () => {
                     <li><a className="fa-brands fa-linkedin" href='https://www.linkedin.com/in/d-arunpandian/' target="_blank" ></a></li>
                 </ul>
                 <ul className="links">
-                    <li><a>Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Skills</a></li>
-                    <li><a>Projects</a></li>
-                    <li><a>Resume</a></li>
-                    <li><a>Contact</a></li>
+                    <li ><Link to='home'>Home</Link></li>
+                    <li ><Link to='about'>About</Link></li>
+                    <li ><Link to='skills'>Skills</Link></li>
+                    <li ><Link to='projects'>Projects</Link></li>
+                    <li ><Link to='resume'>Resume</Link></li>
+                    <li ><Link to='contact'>Contact</Link></li>
                 </ul>
                 <p className="legal">© {currentYear} All rights reserved</p>
                 <div className="position-relative mt-2">

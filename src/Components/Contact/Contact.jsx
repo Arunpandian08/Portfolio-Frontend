@@ -126,7 +126,7 @@ const Contact = () => {
                                 <li className="icon facebook mail">
                                     <span className="tooltip">Email</span>
                                     <a href="mailto:arunpandianda123@gmail.com" target="_blank" rel="noopener noreferrer">
-                                        <img width="32" height="32" src="https://img.icons8.com/windows/32/filled-message.png" alt="filled-message" />
+                                        <img width="32" height="32" src="https://img.icons8.com/windows/32/filled-message.png" alt="Gmail" />
                                     </a>
                                 </li>
                                 <li className="icon twitter">

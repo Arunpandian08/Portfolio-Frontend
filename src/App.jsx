@@ -52,8 +52,6 @@ const App = () => {
             <Element name="contact">
               <Contact />
             </Element>
-            {/* <Element name="footer">
-            </Element> */}
           </div>
               <Footer />
         </>

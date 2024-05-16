@@ -20,15 +20,17 @@
 
 .socials a {
     font-size: 24px;
-    color:black;
+    color: black;
 }
 
 .links {
     gap: 10px;
 }
-ul li:hover{
+
+ul li:hover {
     cursor: pointer;
 }
+
 .legal {
     font-size: 12px;
     margin: 0;
@@ -56,19 +58,22 @@ footer {
     height: 300px;
 }
 
-@media screen and (max-width:679px){
-    .footer{
+@media screen and (max-width:679px) {
+    .footer {
         height: 300px !important;
     }
-    section{
-        top:3rem !important;
+
+    section {
+        top: 3rem !important;
         gap: 0 !important;
         padding-bottom: 10px !important;
     }
-    .background{
+
+    .background {
         top: -15rem !important;
     }
-    .mt-2{
+
+    .mt-2 {
         top: 2.5rem !important;
         margin-left: 2rem;
     }
@@ -97,16 +102,17 @@ section {
 }
 
 @media screen and (max-width:500px) {
-    section{
-        flex-flow:column wrap;
-        justify-content:center;
+    section {
+        flex-flow: column wrap;
+        justify-content: center;
         align-items: center;
         margin: 0 !important;
         padding: 1rem !important;
     }
-    .links{
-        flex-flow:row wrap;
-        justify-content:center;
+
+    .links {
+        flex-flow: row wrap;
+        justify-content: center;
         align-items: center;
         margin: 0 !important;
     }
